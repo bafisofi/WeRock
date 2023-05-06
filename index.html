@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We rock!!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         	<!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+           <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla&family=Ysabeau:wght@400;700&display=swap" rel="stylesheet">
+          <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body> 
+       
+        <div id="container" class="container">
+            
+            <header>
+                
+                <button id="btn-toggle-mode"  class="btn-toggle-mode">
+                    <i class="fa-solid fa-moon icon-toggle" id="icon-toggle-mode"></i> 
+                </button>
+                <img id="img-rock" src="assets/img-rock.png" alt="the silhouette of a woman and a man jumping with a trophy"/>
+                <h1>We rock!</h1>
+            </header> 
+            <main>  
+                <section class="container-endorsement">  
+                    <textarea id="text-endorsement" class=" endorsement-col1 text-endorsement"
+                    placeholder="Write your endorsement here"></textarea>
+                    <div class="input-container endorsement-col2">
+                         <input id="input-from" class="input-from" placeholder="From"/>
+                         <input id="input-to" class="input-to" placeholder="To"/>
+                    </div>
+                    <button id="btn-publish" class="btn-publish endorsement-col-2">Publish</button> 
+                    
+                </section>
+                 
+                <section >
+                    <h2 >- Endorsements - <h2>
+                    <div class="endorsement-gallery" id="endorsement-gallery">    
+                       <!--  <div id="endorsement-card" class="endorsement-card endorsement-light-mode">
+                            <p class="endorsement-to">To Leanne</p>
+                            <p class="endorsement-text">Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! 💜 Frode</p>
+                            <div class="endorsement-from-details" >
+                                <p  class="endorsement-from">From Frode</p>
+                                <span class="endorsement-from-likes"  >
+                                    <i class="fa-solid fa-heart icon-likes" id="icon-likes">
+                                        <span class="endorsement-from-number-likes" id="endorsement-from-number-likes">4</span>
+                                    </i> 
+                                </span>
+                            </div>
+                        </div>-->
+
+                        <!-- <div id="endorsement-card" class="endorsement-card endorsement-light-mode">
+                            <p class="endorsement-to">To Leanne</p>
+                            <p class="endorsement-text">Leanne! Thank you so much for helping me with the March accounting. Saved so much time because of you! 💜 Frode</p>
+                            <div class="endorsement-from-details">
+                                <p  class="endorsement-from">From Frode</p>
+                                <span class="endorsement-from-likes" >
+                                    <i class="fa-solid fa-heart icon-likes" id="icon-likes">
+                                    </i>
+                                    <span class="endorsement-from-number-likes">4</span> 
+                                </span>
+                            </div>
+                        </div> --> 
+
+
+                    </div>
+                  
+                </section> 
+            </main>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

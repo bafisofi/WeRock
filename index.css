@@ -1,0 +1,322 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  font-family: "Ysabeau", sans-serif;
+  background-color: #69c8a8;
+  color: #4b1c50;
+}
+
+/* General  */
+
+img {
+  width: 200px;
+}
+
+@media (min-width: 760px) {
+  img {
+    width: 280px;
+    margin-bottom: 0px;
+  }
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+@media (min-width: 760px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 760px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+textarea,
+input {
+  background-color: #cdd4da;
+  border: none;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 320px;
+  margin: 25px auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+section {
+  padding: 12px 0 0 0;
+}
+
+@media (min-width: 760px) {
+  section {
+    padding: 10px 0;
+  }
+}
+
+.dark-mode {
+  background-color: #111827;
+  color: #e4ebf2;
+}
+
+.dark-gray-mode {
+  background-color: #444059;
+  color: #e4ebf2;
+}
+
+.dark-mode-color {
+  color: #e4ebf2;
+}
+
+/* Header  */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.icon-toggle {
+  color: #4b1c50;
+}
+
+.btn-toggle-mode {
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+@media (min-width: 760px) {
+  .btn-toggle-mode {
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+}
+
+.btn-dark-mode {
+  background-color: #70747d;
+}
+
+/* Endorsement  */
+
+.container-endorsement {
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container-endorsement {
+    width: 750px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 30px;
+    row-gap: 0px;
+  }
+  .endorsement-col1 {
+    flex: 0 0 100%;
+  }
+
+  .endorsement-col2 {
+    flex: 0 0 50%;
+  }
+}
+
+.text-endorsement {
+  width: 317px;
+  height: 118px;
+  resize: none;
+  padding: 12px 20px;
+}
+
+@media (min-width: 768px) {
+  .text-endorsement {
+    width: 50%;
+    font-size: 21px;
+  }
+}
+
+.input-container {
+  margin-top: 5px;
+  display: flex;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .input-container {
+    margin-top: 0px;
+    gap: 20px;
+  }
+}
+
+.input-from,
+.input-to {
+  width: 153px;
+  height: 40px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .input-from,
+  .input-to {
+    height: 51px;
+    width: 163px;
+    margin: 0 0 auto 0;
+    font-size: 21px;
+  }
+}
+
+.btn-publish {
+  background-color: #f2c744;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #3c5973;
+  margin: 10px 0 0 0;
+  display: block;
+  width: 100%;
+  align-self: stretch;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .btn-publish {
+    height: 50px;
+    width: 346px;
+    margin: auto 0 0 0;
+    font-size: 21px;
+  }
+}
+
+.btn-publish:hover {
+  background-color: #3c5973;
+  color: #e4ebf2;
+}
+
+/* Endorsement Gallery  */
+
+.endorsement-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .endorsement-gallery {
+    column-gap: 35px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.endorsement-card {
+  font-family: "Karla", sans-serif;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 15px;
+  min-width: 320px;
+}
+
+@media (min-width: 768px) {
+  .endorsement-card {
+    max-width: 375px;
+  }
+}
+
+.endorsement-to,
+.endorsement-from {
+  font-weight: bold;
+}
+
+.endorsement-from-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.endorsement-text {
+  text-align: left;
+}
+
+.endorsement-from-likes {
+  flex-grow: 2;
+  text-align: right;
+}
+
+.endorsement-from-number-likes {
+  font-family: "Ysabeau", sans-serif;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon-likes {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.endorsement-light-mode {
+  background-color: #ffffff;
+  color: #111827;
+}
+.endorsement-dark-mode {
+  background-color: #70747d;
+  color: #e4ebf2;
+}
+
+.liked {
+  color: #b9313e;
+}
