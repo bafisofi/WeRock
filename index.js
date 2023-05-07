@@ -118,7 +118,7 @@ function toggleMode() {
 
   if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
     console.log("paso");
-    imgRock.setAttribute("src", "/assets/img-rock-dark-mode-409747ac.png");
+    imgRock.setAttribute("src", "/assets/img-rock-dark-mode-ddadb43c.png");
   } else {
     imgRock.setAttribute("src", "/assets/img-rock-409747ac.png");
   }
