@@ -28,6 +28,16 @@ const container = document.getElementById("container");
 
 let lightMode = true;
 
+function loadImage() {
+  let img = new Image();
+  let img2 = new Image();
+  img.src = "dist/assets/img-rock-dark-mode.png";
+  img2.src = "assets/img-rock-dark-mode.png";
+  console.log(img, img2);
+}
+
+loadImage();
+
 window.addEventListener("load", function () {
   const endorsementsRef = ref(database, "endorsements");
   get(endorsementsRef).then((snapshot) => {
