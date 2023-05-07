@@ -140,6 +140,10 @@ header {
   background-color: #70747d;
 }
 
+.img-dark-mode {
+  content: url("assets/img-rock-dark-mode.png");
+}
+
 /* Endorsement  */
 
 .container-endorsement {
@@ -319,8 +323,4 @@ header {
 
 .liked {
   color: #b9313e;
-}
-
-.img-dark-mode {
-  content: url("assets/img-rock-dark-mode.png");
 }

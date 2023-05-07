@@ -29,10 +29,6 @@ const container = document.getElementById("container");
 let lightMode = true;
 
 window.addEventListener("load", function () {
-  let img = new Image();
-  img.src = "assets/img-rock-dark-mode.png";
-
-  console.log(img);
   const endorsementsRef = ref(database, "endorsements");
   get(endorsementsRef).then((snapshot) => {
     snapshot.forEach((childSnapshot) => {
@@ -73,8 +69,6 @@ function updateModeGallery() {
 function handleClick(endorsementID) {
   const endorsementLocation = ref(database, `endorsements/${endorsementID}`);
   const iconLikes = document.getElementById("icon-likes");
-
-  console.log(iconLikes);
 
   get(endorsementLocation).then((snapshot) => {
     endorsementGallery.innerHTML = "";
@@ -120,11 +114,7 @@ function toggleMode() {
   inputFrom.classList.toggle("dark-gray-mode");
   inputTo.classList.toggle("dark-gray-mode");
   textEndorsement.classList.toggle("dark-gray-mode");
-
-  if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
-    imgRock.classList.toggle("img-dark-mode");
-    console.log(imgRock.src);
-  }
+  imgRock.classList.toggle("img-dark-mode");
 
   if (iconToggleMode.classList.contains("fa-moon")) {
     iconToggleMode.classList.remove("fa-moon");
