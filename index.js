@@ -28,17 +28,11 @@ const container = document.getElementById("container");
 
 let lightMode = true;
 
-function loadImage() {
+window.addEventListener("load", function () {
   let img = new Image();
-  img.src =
-    "https://github.com/bafisofi/WeRock/blob/main/assets/img-rock-dark-mode.png";
+  img.src = "assets/img-rock-dark-mode.png";
 
   console.log(img);
-}
-
-loadImage();
-
-window.addEventListener("load", function () {
   const endorsementsRef = ref(database, "endorsements");
   get(endorsementsRef).then((snapshot) => {
     snapshot.forEach((childSnapshot) => {
