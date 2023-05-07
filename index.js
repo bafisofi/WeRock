@@ -122,15 +122,8 @@ function toggleMode() {
   textEndorsement.classList.toggle("dark-gray-mode");
 
   if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
-    console.log("paso");
-    imgRock.setAttribute(
-      // "src",
-      // "https://we-super-rock.netlify.app/assets/img-rock-dark-mode-ddadb43c.png"
-      "src",
-      "https://github.com/bafisofi/WeRock/blob/main/assets/img-rock-dark-mode.png"
-    );
-  } else {
-    imgRock.setAttribute("src", "/assets/img-rock-409747ac.png");
+    imgRock.classList.toggle("img-dark-mode");
+    console.log(imgRock.src);
   }
 
   if (iconToggleMode.classList.contains("fa-moon")) {

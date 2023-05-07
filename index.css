@@ -320,3 +320,7 @@ header {
 .liked {
   color: #b9313e;
 }
+
+.img-dark-mode {
+  content: url("assets/img-rock-dark-mode.png");
+}
