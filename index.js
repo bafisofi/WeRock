@@ -39,7 +39,6 @@ window.addEventListener("load", function () {
 });
 
 container.addEventListener("click", function (e) {
-  console.log(e.target.id);
   if (e.target.dataset.like) {
     handleClick(e.target.dataset.like);
   } else if (
