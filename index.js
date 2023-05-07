@@ -118,10 +118,9 @@ function toggleMode() {
 
   if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
     console.log("paso");
-    imgRock.setAttribute("src", "assets/img-rock-dark-mode-409747ac.png");
+    imgRock.setAttribute("src", "/assets/img-rock-dark-mode-409747ac.png");
   } else {
-    console.log("paso 2");
-    imgRock.setAttribute("src", "assets/img-rock-409747ac.png");
+    imgRock.setAttribute("src", "/assets/img-rock-409747ac.png");
   }
 
   if (iconToggleMode.classList.contains("fa-moon")) {
