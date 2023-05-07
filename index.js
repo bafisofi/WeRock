@@ -118,7 +118,10 @@ function toggleMode() {
 
   if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
     console.log("paso");
-    imgRock.setAttribute("src", "/assets/img-rock-dark-mode-ddadb43c.png");
+    imgRock.setAttribute(
+      "src",
+      "https://we-super-rock.netlify.app/assets/img-rock-dark-mode-ddadb43c.png"
+    );
   } else {
     imgRock.setAttribute("src", "/assets/img-rock-409747ac.png");
   }
