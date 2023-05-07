@@ -118,7 +118,7 @@ function toggleMode() {
 
   if (imgRock.getAttribute("src") === "assets/img-rock.png") {
     imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
-  } else {
+  } else if (imgRock.getAttribute("src") === "assets/img-rock-dark-mode.png") {
     imgRock.setAttribute("src", "assets/img-rock.png");
   }
 
