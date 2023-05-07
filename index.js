@@ -133,7 +133,7 @@ function toggleMode() {
       // "src",
       // "https://we-super-rock.netlify.app/assets/img-rock-dark-mode-ddadb43c.png"
       "src",
-      "assets/img-rock-dark-mode.png"
+      "https://github.com/bafisofi/WeRock/blob/main/assets/img-rock-dark-mode.png"
     );
   } else {
     imgRock.setAttribute("src", "/assets/img-rock-409747ac.png");
