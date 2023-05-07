@@ -120,6 +120,7 @@ function toggleMode() {
     console.log("paso");
     imgRock.setAttribute("src", "assets/img-rock-dark-mode-409747ac.png");
   } else {
+    console.log("paso 2");
     imgRock.setAttribute("src", "assets/img-rock-409747ac.png");
   }
 
