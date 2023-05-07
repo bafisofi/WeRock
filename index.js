@@ -116,10 +116,10 @@ function toggleMode() {
   inputTo.classList.toggle("dark-gray-mode");
   textEndorsement.classList.toggle("dark-gray-mode");
 
-  if (imgRock.getAttribute("src") === "img/img-rock.png") {
-    imgRock.setAttribute("src", "img-rock-dark-mode.png");
+  if (imgRock.getAttribute("src") === "assets/img-rock.png") {
+    imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
   } else {
-    imgRock.setAttribute("src", "img/img-rock.png");
+    imgRock.setAttribute("src", "assets/img-rock.png");
   }
 
   if (iconToggleMode.classList.contains("fa-moon")) {
