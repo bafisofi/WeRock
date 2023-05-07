@@ -30,7 +30,8 @@ let lightMode = true;
 
 function loadImage() {
   let img = new Image();
-  img.src = "/dist/assets/img-rock-dark-mode.png";
+  img.src =
+    "https://github.com/bafisofi/WeRock/blob/main/assets/img-rock-dark-mode.png";
 
   console.log(img);
 }
