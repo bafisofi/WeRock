@@ -116,10 +116,7 @@ function toggleMode() {
   inputTo.classList.toggle("dark-gray-mode");
   textEndorsement.classList.toggle("dark-gray-mode");
 
-  if (
-    imgRock.getAttribute("src") ===
-    "https://we-super-rock.netlify.app/assets/img-rock-409747ac.png"
-  ) {
+  if (imgRock.getAttribute("src") === "/assets/img-rock-409747ac.png") {
     imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
   } else {
     imgRock.setAttribute("src", "assets/img-rock.png");
