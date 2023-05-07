@@ -117,7 +117,7 @@ function toggleMode() {
   textEndorsement.classList.toggle("dark-gray-mode");
 
   if (imgRock.getAttribute("src") === "img/img-rock.png") {
-    imgRock.setAttribute("src", "img/img-rock-dark-mode.png");
+    imgRock.setAttribute("src", "img-rock-dark-mode.png");
   } else {
     imgRock.setAttribute("src", "img/img-rock.png");
   }
