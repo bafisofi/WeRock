@@ -25,6 +25,7 @@ const textEndorsement = document.getElementById("text-endorsement");
 const inputFrom = document.getElementById("input-from");
 const inputTo = document.getElementById("input-to");
 const container = document.getElementById("container");
+
 let lightMode = true;
 
 window.addEventListener("load", function () {
