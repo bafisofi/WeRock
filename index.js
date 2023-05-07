@@ -117,9 +117,9 @@ function toggleMode() {
   textEndorsement.classList.toggle("dark-gray-mode");
 
   if (imgRock.getAttribute("src") === "/assets/img-rock.png") {
-    imgRock.setAttribute("src", "/assets/img-rock-dark-mode.png");
+    imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
   } else {
-    imgRock.setAttribute("src", "/assets/img-rock.png");
+    imgRock.setAttribute("src", "assets/img-rock.png");
   }
 
   if (iconToggleMode.classList.contains("fa-moon")) {
