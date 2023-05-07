@@ -30,8 +30,7 @@ let lightMode = true;
 
 function loadImage() {
   let img = new Image();
-  img.src =
-    "https://we-super-rock.netlify.app/dist/assets/img-rock-dark-mode.png";
+  img.src = "/dist/assets/img-rock-dark-mode.png";
 
   console.log(img);
 }
