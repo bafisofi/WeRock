@@ -116,23 +116,22 @@ function toggleMode() {
   inputTo.classList.toggle("dark-gray-mode");
   textEndorsement.classList.toggle("dark-gray-mode");
 
-  /*  if (imgRock.getAttribute("src") === "assets/img-rock.png") {
+  if (imgRock.getAttribute("src") === "assets/img-rock.png") {
     imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
   } else {
     imgRock.setAttribute("src", "assets/img-rock.png");
-  } */
+  }
 
   if (iconToggleMode.classList.contains("fa-moon")) {
     iconToggleMode.classList.remove("fa-moon");
     iconToggleMode.classList.add("fa-sun");
     iconToggleMode.style.color = "#F2C744";
-    imgRock.setAttribute("src", "assets/img-rock-dark-mode.png");
+
     lightMode = false;
   } else {
     iconToggleMode.classList.remove("fa-sun");
     iconToggleMode.classList.add("fa-moon");
     iconToggleMode.style.color = "#4B1C50";
-    imgRock.setAttribute("src", "assets/img-rock.png");
     lightMode = true;
   }
 }
