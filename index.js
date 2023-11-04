@@ -131,8 +131,8 @@ function toggleMode() {
 
 function saveEndorsementsInDB() {
   const objEndorsement = {
-    from: inputTo.value,
-    to: inputFrom.value,
+    from: inputFrom.value,
+    to: inputTo.value,
     endorsement: textEndorsement.value,
     likes: 0,
     isLiked: false,
